@@ -1,0 +1,4 @@
+const loginCreds = {
+    username: "Admin",
+    password: "admin123"
+};
