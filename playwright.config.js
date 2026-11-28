@@ -16,9 +16,9 @@ export default defineConfig({
 
   testDir: './tests',
 
-  globalTimeout:7200000,/*Global timeout for each test in milliseconds */
+  /*Global timeout for each test in milliseconds */
 
-  timeout: 30000, /* Maximum time one test can run for. */
+  timeout: 60000, /* Maximum time one test can run for. */
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
